@@ -1,7 +1,10 @@
-main() {
-  print("no as a multiple of 5");
-  List list = [1,2,3,4,5,];
-  list.forEach((i) {
-    print(5*i);
-  });
+import 'dart:io';
+
+main(){
+  int n1, n2, sum;
+  print("ente the first number: ");
+  n1 = int.parse(stdin.readLineSync()!);
+  print("enter the second number: ");
+  n2 = int.parse(stdin.readLineSync()!);
+  print(n1 + n2);
 }
