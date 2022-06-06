@@ -10,4 +10,8 @@ void main() {
   var converted_val = val.toDouble();
   print("after  changing datatype => ${converted_val.runtimeType}");
 
+  String str = "10";
+  print("before changing into integere the datatype is  => ${str.runtimeType}");
+  var afterparse = int.parse(str);
+  print("before changing into integere the datatype is  => ${afterparse.runtimeType}");
 }
