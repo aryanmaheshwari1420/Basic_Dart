@@ -8,7 +8,7 @@ main() {
   int a = int.parse(stdin.readLineSync()!);
   print("Enter the value of second operand: ");
   int b = int.parse(stdin.readLineSync()!);
-  int ans;
+  
   switch (opt) {
     case "+":
       return  print("Answer is : ${a*b}");
